@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6C398B7BA9853E33D1FF92 /* libPods-objc-inke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DCEB3C7872145E57BD69D8D /* libPods-objc-inke.a */; };
+		A39A14C51E6AB3F400A350B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A14C41E6AB3F400A350B1 /* main.m */; };
+		A39A14CE1E6AB3F400A350B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39A14CC1E6AB3F400A350B1 /* Main.storyboard */; };
+		A39A14D01E6AB3F400A350B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39A14CF1E6AB3F400A350B1 /* Assets.xcassets */; };
+		A39A14D31E6AB3F400A350B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39A14D11E6AB3F400A350B1 /* LaunchScreen.storyboard */; };
+		A39A14F71E6AB43900A350B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A14EE1E6AB43900A350B1 /* AppDelegate.m */; };
+		A39A14F81E6AB43900A350B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A14F11E6AB43900A350B1 /* ViewController.m */; };
+		A39A14FC1E6ABF6500A350B1 /* INKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A14FB1E6ABF6500A350B1 /* INKTabBarController.m */; };
+		A39A14FF1E6ABF7900A350B1 /* INKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A14FE1E6ABF7900A350B1 /* INKTabBar.m */; };
+		A39A15021E6AC9D000A350B1 /* INKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A15011E6AC9D000A350B1 /* INKBaseViewController.m */; };
+		A39A15061E6ACA0A00A350B1 /* INKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A15041E6ACA0A00A350B1 /* INKMainViewController.m */; };
+		A39A15071E6ACA0A00A350B1 /* INKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39A15051E6ACA0A00A350B1 /* INKMainViewController.xib */; };
+		A39A150B1E6AEC5600A350B1 /* INKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A15091E6AEC5600A350B1 /* INKMeViewController.m */; };
+		A39A150C1E6AEC5600A350B1 /* INKMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39A150A1E6AEC5600A350B1 /* INKMeViewController.xib */; };
+		A39A150F1E6AEF6300A350B1 /* INKBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39A150E1E6AEF6300A350B1 /* INKBaseNavViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DCEB3C7872145E57BD69D8D /* libPods-objc-inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-objc-inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE5B98650929C96238CFE97 /* Pods-objc-inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc-inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-objc-inke/Pods-objc-inke.release.xcconfig"; sourceTree = "<group>"; };
+		8F4B18562B4F9297AF4332A2 /* Pods-objc-inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc-inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-objc-inke/Pods-objc-inke.debug.xcconfig"; sourceTree = "<group>"; };
+		A39A14C01E6AB3F400A350B1 /* objc-inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc-inke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39A14C41E6AB3F400A350B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A39A14CD1E6AB3F400A350B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A39A14CF1E6AB3F400A350B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A39A14D21E6AB3F400A350B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A39A14D41E6AB3F400A350B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39A14ED1E6AB43900A350B1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A39A14EE1E6AB43900A350B1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A39A14EF1E6AB43900A350B1 /* Inke.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inke.pch; sourceTree = "<group>"; };
+		A39A14F01E6AB43900A350B1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A39A14F11E6AB43900A350B1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A39A14F91E6ABC1E00A350B1 /* INKMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INKMacros.h; sourceTree = "<group>"; };
+		A39A14FA1E6ABF6500A350B1 /* INKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKTabBarController.h; sourceTree = "<group>"; };
+		A39A14FB1E6ABF6500A350B1 /* INKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKTabBarController.m; sourceTree = "<group>"; };
+		A39A14FD1E6ABF7900A350B1 /* INKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKTabBar.h; sourceTree = "<group>"; };
+		A39A14FE1E6ABF7900A350B1 /* INKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKTabBar.m; sourceTree = "<group>"; };
+		A39A15001E6AC9D000A350B1 /* INKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKBaseViewController.h; sourceTree = "<group>"; };
+		A39A15011E6AC9D000A350B1 /* INKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKBaseViewController.m; sourceTree = "<group>"; };
+		A39A15031E6ACA0A00A350B1 /* INKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKMainViewController.h; sourceTree = "<group>"; };
+		A39A15041E6ACA0A00A350B1 /* INKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKMainViewController.m; sourceTree = "<group>"; };
+		A39A15051E6ACA0A00A350B1 /* INKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INKMainViewController.xib; sourceTree = "<group>"; };
+		A39A15081E6AEC5600A350B1 /* INKMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKMeViewController.h; sourceTree = "<group>"; };
+		A39A15091E6AEC5600A350B1 /* INKMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKMeViewController.m; sourceTree = "<group>"; };
+		A39A150A1E6AEC5600A350B1 /* INKMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INKMeViewController.xib; sourceTree = "<group>"; };
+		A39A150D1E6AEF6300A350B1 /* INKBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INKBaseNavViewController.h; sourceTree = "<group>"; };
+		A39A150E1E6AEF6300A350B1 /* INKBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INKBaseNavViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39A14BD1E6AB3F400A350B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6C398B7BA9853E33D1FF92 /* libPods-objc-inke.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90E70BF5ABB0AEA8BC37C684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DCEB3C7872145E57BD69D8D /* libPods-objc-inke.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A39A14B71E6AB3F400A350B1 = {
+			isa = PBXGroup;
+			children = (
+				A39A14C21E6AB3F400A350B1 /* objc-inke */,
+				A39A14C11E6AB3F400A350B1 /* Products */,
+				E23AB014EDBE486F1F40C55A /* Pods */,
+				90E70BF5ABB0AEA8BC37C684 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A39A14C11E6AB3F400A350B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39A14C01E6AB3F400A350B1 /* objc-inke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39A14C21E6AB3F400A350B1 /* objc-inke */ = {
+			isa = PBXGroup;
+			children = (
+				A39A14DA1E6AB43900A350B1 /* Classes */,
+				A39A14C31E6AB3F400A350B1 /* Supporting Files */,
+			);
+			path = "objc-inke";
+			sourceTree = "<group>";
+		};
+		A39A14C31E6AB3F400A350B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39A14CC1E6AB3F400A350B1 /* Main.storyboard */,
+				A39A14CF1E6AB3F400A350B1 /* Assets.xcassets */,
+				A39A14D11E6AB3F400A350B1 /* LaunchScreen.storyboard */,
+				A39A14D41E6AB3F400A350B1 /* Info.plist */,
+				A39A14C41E6AB3F400A350B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39A14DA1E6AB43900A350B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A39A14DB1E6AB43900A350B1 /* Base */,
+				A39A14DC1E6AB43900A350B1 /* Helper */,
+				A39A14DF1E6AB43900A350B1 /* Launch */,
+				A39A14E01E6AB43900A350B1 /* Lib */,
+				A39A14E11E6AB43900A350B1 /* Live */,
+				A39A14E61E6AB43900A350B1 /* Me */,
+				A39A14EB1E6AB43900A350B1 /* Network */,
+				A39A14EC1E6AB43900A350B1 /* Other */,
+				A39A14F21E6AB43900A350B1 /* Show */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A39A14DB1E6AB43900A350B1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A39A14FA1E6ABF6500A350B1 /* INKTabBarController.h */,
+				A39A14FB1E6ABF6500A350B1 /* INKTabBarController.m */,
+				A39A14FD1E6ABF7900A350B1 /* INKTabBar.h */,
+				A39A14FE1E6ABF7900A350B1 /* INKTabBar.m */,
+				A39A15001E6AC9D000A350B1 /* INKBaseViewController.h */,
+				A39A15011E6AC9D000A350B1 /* INKBaseViewController.m */,
+				A39A150D1E6AEF6300A350B1 /* INKBaseNavViewController.h */,
+				A39A150E1E6AEF6300A350B1 /* INKBaseNavViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A39A14DC1E6AB43900A350B1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A39A14DD1E6AB43900A350B1 /* Category */,
+				A39A14DE1E6AB43900A350B1 /* Tools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A39A14DD1E6AB43900A350B1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A39A14DE1E6AB43900A350B1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A39A14DF1E6AB43900A350B1 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		A39A14E01E6AB43900A350B1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		A39A14E11E6AB43900A350B1 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				A39A14E21E6AB43900A350B1 /* Controller */,
+				A39A14E31E6AB43900A350B1 /* Handler */,
+				A39A14E41E6AB43900A350B1 /* Model */,
+				A39A14E51E6AB43900A350B1 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		A39A14E21E6AB43900A350B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A39A14E31E6AB43900A350B1 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		A39A14E41E6AB43900A350B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A39A14E51E6AB43900A350B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A39A14E61E6AB43900A350B1 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				A39A14E71E6AB43900A350B1 /* Controller */,
+				A39A14E81E6AB43900A350B1 /* Handler */,
+				A39A14E91E6AB43900A350B1 /* Model */,
+				A39A14EA1E6AB43900A350B1 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		A39A14E71E6AB43900A350B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A39A15081E6AEC5600A350B1 /* INKMeViewController.h */,
+				A39A15091E6AEC5600A350B1 /* INKMeViewController.m */,
+				A39A150A1E6AEC5600A350B1 /* INKMeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A39A14E81E6AB43900A350B1 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		A39A14E91E6AB43900A350B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A39A14EA1E6AB43900A350B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A39A14EB1E6AB43900A350B1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A39A14EC1E6AB43900A350B1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A39A14ED1E6AB43900A350B1 /* AppDelegate.h */,
+				A39A14EE1E6AB43900A350B1 /* AppDelegate.m */,
+				A39A14EF1E6AB43900A350B1 /* Inke.pch */,
+				A39A14F01E6AB43900A350B1 /* ViewController.h */,
+				A39A14F11E6AB43900A350B1 /* ViewController.m */,
+				A39A14F91E6ABC1E00A350B1 /* INKMacros.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A39A14F21E6AB43900A350B1 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				A39A14F31E6AB43900A350B1 /* Controller */,
+				A39A14F41E6AB43900A350B1 /* Handler */,
+				A39A14F51E6AB43900A350B1 /* Model */,
+				A39A14F61E6AB43900A350B1 /* View */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		A39A14F31E6AB43900A350B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A39A15031E6ACA0A00A350B1 /* INKMainViewController.h */,
+				A39A15041E6ACA0A00A350B1 /* INKMainViewController.m */,
+				A39A15051E6ACA0A00A350B1 /* INKMainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A39A14F41E6AB43900A350B1 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		A39A14F51E6AB43900A350B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A39A14F61E6AB43900A350B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E23AB014EDBE486F1F40C55A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F4B18562B4F9297AF4332A2 /* Pods-objc-inke.debug.xcconfig */,
+				5EE5B98650929C96238CFE97 /* Pods-objc-inke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A39A14BF1E6AB3F400A350B1 /* objc-inke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39A14D71E6AB3F400A350B1 /* Build configuration list for PBXNativeTarget "objc-inke" */;
+			buildPhases = (
+				AD7A7477CAEFFEBD91812227 /* [CP] Check Pods Manifest.lock */,
+				A39A14BC1E6AB3F400A350B1 /* Sources */,
+				A39A14BD1E6AB3F400A350B1 /* Frameworks */,
+				A39A14BE1E6AB3F400A350B1 /* Resources */,
+				BD5EA668A3A4A3569308A8C0 /* [CP] Embed Pods Frameworks */,
+				490A8A9D2AC8FD2005992B29 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "objc-inke";
+			productName = "objc-inke";
+			productReference = A39A14C01E6AB3F400A350B1 /* objc-inke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39A14B81E6AB3F400A350B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = INK;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = prince.chen;
+				TargetAttributes = {
+					A39A14BF1E6AB3F400A350B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T9YCJ46SRU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A39A14BB1E6AB3F400A350B1 /* Build configuration list for PBXProject "objc-inke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A39A14B71E6AB3F400A350B1;
+			productRefGroup = A39A14C11E6AB3F400A350B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39A14BF1E6AB3F400A350B1 /* objc-inke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39A14BE1E6AB3F400A350B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39A15071E6ACA0A00A350B1 /* INKMainViewController.xib in Resources */,
+				A39A14D31E6AB3F400A350B1 /* LaunchScreen.storyboard in Resources */,
+				A39A150C1E6AEC5600A350B1 /* INKMeViewController.xib in Resources */,
+				A39A14D01E6AB3F400A350B1 /* Assets.xcassets in Resources */,
+				A39A14CE1E6AB3F400A350B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		490A8A9D2AC8FD2005992B29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-objc-inke/Pods-objc-inke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7A7477CAEFFEBD91812227 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5EA668A3A4A3569308A8C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-objc-inke/Pods-objc-inke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39A14BC1E6AB3F400A350B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39A15021E6AC9D000A350B1 /* INKBaseViewController.m in Sources */,
+				A39A150F1E6AEF6300A350B1 /* INKBaseNavViewController.m in Sources */,
+				A39A14F81E6AB43900A350B1 /* ViewController.m in Sources */,
+				A39A14FF1E6ABF7900A350B1 /* INKTabBar.m in Sources */,
+				A39A150B1E6AEC5600A350B1 /* INKMeViewController.m in Sources */,
+				A39A15061E6ACA0A00A350B1 /* INKMainViewController.m in Sources */,
+				A39A14F71E6AB43900A350B1 /* AppDelegate.m in Sources */,
+				A39A14FC1E6ABF6500A350B1 /* INKTabBarController.m in Sources */,
+				A39A14C51E6AB3F400A350B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A39A14CC1E6AB3F400A350B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39A14CD1E6AB3F400A350B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A39A14D11E6AB3F400A350B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39A14D21E6AB3F400A350B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A39A14D51E6AB3F400A350B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A39A14D61E6AB3F400A350B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A39A14D81E6AB3F400A350B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4B18562B4F9297AF4332A2 /* Pods-objc-inke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = T9YCJ46SRU;
+				GCC_PREFIX_HEADER = "/Users/Prince/prince/00_ios-github/objc-inke/objc-inke/objc-inke/Classes/Other/Inke.pch";
+				INFOPLIST_FILE = "objc-inke/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.princechen.objc-inke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A39A14D91E6AB3F400A350B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE5B98650929C96238CFE97 /* Pods-objc-inke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = T9YCJ46SRU;
+				GCC_PREFIX_HEADER = "/Users/Prince/prince/00_ios-github/objc-inke/objc-inke/objc-inke/Classes/Other/Inke.pch";
+				INFOPLIST_FILE = "objc-inke/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.princechen.objc-inke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39A14BB1E6AB3F400A350B1 /* Build configuration list for PBXProject "objc-inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39A14D51E6AB3F400A350B1 /* Debug */,
+				A39A14D61E6AB3F400A350B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39A14D71E6AB3F400A350B1 /* Build configuration list for PBXNativeTarget "objc-inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39A14D81E6AB3F400A350B1 /* Debug */,
+				A39A14D91E6AB3F400A350B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39A14B81E6AB3F400A350B1 /* Project object */;
+}
